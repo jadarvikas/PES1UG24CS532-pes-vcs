@@ -3,7 +3,7 @@
 
 **Name:** Vikas Ashok Jadar  
 **SRN:** PES1UG24CS532
-**Repository:** [GitHub repo URL]
+**Repository:** (https://github.com/jadarvikas/PES1UG24CS532-pes-vcs)
 
 ---
 
@@ -12,29 +12,43 @@
 ### Phase 1 – Object Storage
 
 - **Screenshot 1A:** `screenshot_1A.png` – Output of `./test_objects`
+- <img width="998" height="178" alt="WhatsApp Image 2026-04-20 at 3 19 50 PM" src="https://github.com/user-attachments/assets/8df3a549-179f-4c2e-9feb-a46de981a9e6" />
+
 - **Screenshot 1B:** `screenshot_1B.png` – `find .pes/objects -type f` showing sharded directories
+- <img width="826" height="113" alt="WhatsApp Image 2026-04-20 at 3 20 16 PM" src="https://github.com/user-attachments/assets/66ab750a-746e-4344-861a-0eaac57b60b8" />
+
 
 ### Phase 2 – Tree Objects
 
 - **Screenshot 2A:** `screenshot_2A.png` – Output of `./test_tree`
+- <img width="745" height="135" alt="WhatsApp Image 2026-04-20 at 3 41 38 PM" src="https://github.com/user-attachments/assets/45614e9f-fdc8-4b3b-9767-acb3597adf03" />
+
 - **Screenshot 2B:** `screenshot_2B.png` – `xxd` dump of a raw tree object (first 20 lines)
+- <img width="1332" height="663" alt="WhatsApp Image 2026-04-20 at 4 07 15 PM" src="https://github.com/user-attachments/assets/c52a6bb8-b83d-40e7-9f4d-796eb82784b2" />
+
 
 ### Phase 3 – Index (Staging Area)
 
 - **Screenshot 3A:** `screenshot_3A.png` – `./pes init`, `./pes add`, `./pes status` sequence
+- <img width="874" height="671" alt="WhatsApp Image 2026-04-20 at 3 55 07 PM" src="https://github.com/user-attachments/assets/f96b813f-1fc3-4bd9-83f4-b76eb62e0ed7" />
+
 - **Screenshot 3B:** `screenshot_3B.png` – Content of `.pes/index` (text format)
+- <img width="1009" height="99" alt="WhatsApp Image 2026-04-20 at 3 55 26 PM" src="https://github.com/user-attachments/assets/dc5280ad-d822-40ed-881e-582d5db400df" />
+
 
 ### Phase 4 – Commits and History
 
 - **Screenshot 4A:** `screenshot_4A.png` – Output of `./pes log` (three commits)
+- <img width="810" height="416" alt="WhatsApp Image 2026-04-20 at 3 58 05 PM" src="https://github.com/user-attachments/assets/eac25d76-5358-46f9-8db0-5ec977ad9625" />
+
 - **Screenshot 4B:** `screenshot_4B.png` – `find .pes -type f | sort` after three commits
+- <img width="833" height="328" alt="WhatsApp Image 2026-04-20 at 3 58 30 PM" src="https://github.com/user-attachments/assets/561b822b-efdb-42c6-ba6e-c811c67bc9fd" />
+
 - **Screenshot 4C:** `screenshot_4C.png` – `cat .pes/refs/heads/main` and `cat .pes/HEAD`
+- <img width="796" height="115" alt="WhatsApp Image 2026-04-20 at 3 58 49 PM" src="https://github.com/user-attachments/assets/ad65833f-3111-40d5-8942-36be2bdc6950" />
 
-### Integration Test (Optional)
 
-- `screenshot_integration.png` – Output of `make test-integration`
 
----
 
 ## Analysis Questions
 
@@ -165,4 +179,4 @@ In practice, `git gc` is safe because it relies on the fact that reference updat
 - The repository contains at least 5 commits per phase (see `git log --oneline`).  
 - The lab report (this file) is placed at the root of the repository.
 
-**GitHub Repository URL:** [Replace with your public repo URL]
+**GitHub Repository URL:** [(https://github.com/jadarvikas/PES1UG24CS532-pes-vcs)
